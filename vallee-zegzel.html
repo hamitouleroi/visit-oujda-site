@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vallée de Zegzel - Visitez Oujda</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+        /* Réutilisation de votre configuration Tailwind */
+        :root {
+            --color-oujda-gold: #D4AF37;
+            --color-oujda-ochre: #C07646;
+            --color-oujda-dark: #1a1a1a;
+            --color-oujda-blue: #4682B4; 
+        }
+        .text-oujda-gold { color: var(--color-oujda-gold); }
+        .bg-oujda-ochre { background-color: var(--color-oujda-ochre); }
+        .text-oujda-ochre { color: var(--color-oujda-ochre); }
+        .text-oujda-blue { color: var(--color-oujda-blue); }
+        .border-oujda-blue { border-left-color: var(--color-oujda-blue); }
+
+        .detail-header {
+            background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url('3.webp');
+            background-position: center;
+            background-size: cover;
+            min-height: 400px;
+        }
+    </style>
+</head>
+<body class="font-sans text-gray-800 antialiased bg-gray-50">
+
+    <header class="detail-header flex items-end text-white pb-12 px-6">
+        <div class="max-w-4xl mx-auto w-full">
+            <a href="index.html" class="text-sm uppercase tracking-wider hover:text-oujda-gold transition mb-4 block"><i class="fas fa-arrow-left mr-2"></i> Retour à Oujda</a>
+            <h1 class="font-serif text-5xl md:text-6xl font-bold mb-2">Vallée de Zegzel</h1>
+            <p class="text-xl font-light">Le canyon spectaculaire et la fraîcheur des grottes.</p>
+        </div>
+    </header>
+
+    <main class="py-16">
+        <div class="max-w-4xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-3 gap-12">
+            
+            <div class="lg:col-span-2">
+                <h2 class="font-serif text-3xl font-bold text-oujda-dark mb-6">L'Évasion Naturelle</h2>
+                <p class="text-gray-600 leading-relaxed mb-6 text-lg">
+                    Située dans les contreforts des montagnes des **Beni-Snassen**, la Vallée de Zegzel est une merveille géologique. Elle est célèbre pour ses paysages de canyons verdoyants et la **Grotte du Chameau** qui abrite des formations rocheuses impressionnantes. C'est la destination parfaite pour une randonnée d'une journée et un pique-nique au bord de l'oued, offrant une fraîcheur bienvenue en été.
+                </p>
+
+                <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+                    <li class="p-4 bg-white shadow-md border-l-4 border-oujda-blue">
+                        <i class="fas fa-mountain text-oujda-blue mr-2"></i> **Randonnée :** Plusieurs sentiers balisés, tous niveaux.
+                    </li>
+                    <li class="p-4 bg-white shadow-md border-l-4 border-oujda-blue">
+                        <i class="fas fa-water text-oujda-blue mr-2"></i> **Source :** Abri de l'Oued Zegzel, souvent en eau.
+                    </li>
+                </ul>
+
+                <h3 class="font-serif text-2xl font-bold text-oujda-blue mt-8 mb-4">Conseils d'Exploration</h3>
+                <p class="text-gray-600 leading-relaxed">
+                    N'oubliez pas d'emporter des chaussures de marche confortables et de l'eau. Pour la **Grotte du Chameau**, il est conseillé d'engager un guide local (disponible sur place) pour une exploration sécurisée et enrichie par l'histoire du site. Les vues panoramiques depuis les hauteurs du canyon sont spectaculaires au lever et au coucher du soleil.
+                </p>
+            </div>
+
+            <aside class="lg:col-span-1 bg-white p-6 shadow-xl border-t-4 border-oujda-blue">
+                <h3 class="font-bold text-xl mb-4 text-oujda-dark">Informations Pratiques</h3>
+                <ul class="space-y-4">
+                    <li class="flex gap-3">
+                        <i class="fas fa-car text-oujda-blue mt-1"></i>
+                        <div>
+                            <p class="font-semibold">Accès</p>
+                            <p class="text-sm text-gray-600">À environ 45 minutes en voiture d'Oujda (nécessite un taxi ou une voiture de location).</p>
+                        </div>
+                    </li>
+                    <li class="flex gap-3">
+                        <i class="fas fa-tint text-oujda-blue mt-1"></i>
+                        <div>
+                            <p class="font-semibold">Meilleure Saison</p>
+                            <p class="text-sm text-gray-600">Printemps (pour la verdure) et Automne (températures douces).</p>
+                        </div>
+                    </li>
+                    <li class="flex gap-3">
+                        <i class="fas fa-eye text-oujda-blue mt-1"></i>
+                        <div>
+                            <p class="font-semibold">À voir absolument</p>
+                            <p class="text-sm text-gray-600">La Grotte du Chameau (Camélus) et les cultures en terrasse.</p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="mt-6 text-center">
+                    <a href="index.html#map" class="bg-oujda-ochre text-white px-6 py-3 block font-bold hover:bg-oujda-gold transition">Trouver sur la carte</a>
+                </div>
+            </aside>
+        </div>
+    </main>
+    
+</body>
+</html>

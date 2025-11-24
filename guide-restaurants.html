@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guide des Restaurants - Oujda</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+        /* Réutilisation de votre configuration Tailwind */
+        :root {
+            --color-oujda-gold: #D4AF37;
+            --color-oujda-ochre: #C07646;
+            --color-oujda-dark: #1a1a1a;
+            --color-oujda-green: #2E5D4B; 
+        }
+        .text-oujda-gold { color: var(--color-oujda-gold); }
+        .bg-oujda-ochre { background-color: var(--color-oujda-ochre); }
+        .text-oujda-ochre { color: var(--color-oujda-ochre); }
+
+        .detail-header {
+            background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1560801619-01d71da0f70c?q=80&w=1000');
+            background-position: center;
+            background-size: cover;
+            min-height: 400px;
+        }
+    </style>
+</head>
+<body class="font-sans text-gray-800 antialiased bg-gray-50">
+
+    <header class="detail-header flex items-end text-white pb-12 px-6">
+        <div class="max-w-4xl mx-auto w-full">
+            <a href="index.html" class="text-sm uppercase tracking-wider hover:text-oujda-gold transition mb-4 block"><i class="fas fa-arrow-left mr-2"></i> Retour à Oujda</a>
+            <h1 class="font-serif text-5xl md:text-6xl font-bold mb-2">Guide Culinaire</h1>
+            <p class="text-xl font-light">Les saveurs authentiques d'Oujda et de l'Oriental.</p>
+        </div>
+    </header>
+
+    <main class="py-16">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="font-serif text-3xl font-bold text-oujda-dark mb-6 text-center">Les Incontournables de la Gastronomie Oujdie</h2>
+            <p class="text-gray-600 leading-relaxed mb-10 text-lg text-center">
+                La cuisine d'Oujda est un voyage en soi, un mélange de traditions berbères, arabo-andalouses et méditerranéennes. Préparez vos papilles !
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mb-16">
+                <div class="bg-white p-6 shadow-lg border-t-4 border-oujda-ochre">
+                    <img src="5.png" alt="Karan d'Oujda" class="w-full h-48 object-cover mb-4 rounded-lg">
+                    <h3 class="font-serif text-2xl font-bold text-oujda-dark mb-3">Le Karan</h3>
+                    <p class="text-gray-700 mb-4">
+                        Ce gratin crémeux à base de farine de pois chiches est l'emblème de la street food oujdie. Servi chaud, saupoudré de cumin et parfois accompagné d'un peu de harissa, c'est un délice simple et économique.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="flex items-center"><i class="fas fa-map-marker-alt text-oujda-gold mr-2"></i> Où le trouver : Partout dans la Médina et les marchés.</li>
+                        <li class="flex items-center"><i class="fas fa-money-bill-wave text-oujda-gold mr-2"></i> Prix : Très abordable (quelques dirhams).</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-6 shadow-lg border-t-4 border-oujda-gold">
+                    <img src="6.png" alt="Barida d'Oujda" class="w-full h-48 object-cover mb-4 rounded-lg">
+                    <h3 class="font-serif text-2xl font-bold text-oujda-dark mb-3">La Barida</h3>
+                    <p class="text-gray-700 mb-4">
+                        La boisson parfaite pour accompagner le Karan ! Cette citronnade fraîche et légèrement gazeuse est faite maison par les vendeurs. Un rafraîchissement unique, idéal pour les chaudes journées.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="flex items-center"><i class="fas fa-map-marker-alt text-oujda-gold mr-2"></i> Où le trouver : Vendeurs ambulants et petits cafés.</li>
+                        <li class="flex items-center"><i class="fas fa-money-bill-wave text-oujda-gold mr-2"></i> Prix : Très abordable.</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-6 shadow-lg border-t-4 border-oujda-green">
+                    <img src="7.png" alt="Berkoukes" class="w-full h-48 object-cover mb-4 rounded-lg">
+                    <h3 class="font-serif text-2xl font-bold text-oujda-dark mb-3">Berkoukes</h3>
+                    <p class="text-gray-700 mb-4">
+                        Un plat hivernal consistant à base de petites pâtes roulées à la main, de légumes et de viande. Riche et savoureux, il réchauffe le corps et l'âme, typique des repas familiaux.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="flex items-center"><i class="fas fa-utensils text-oujda-gold mr-2"></i> Où le trouver : Restaurants traditionnels, parfois sur les marchés.</li>
+                        <li class="flex items-center"><i class="fas fa-calendar-alt text-oujda-gold mr-2"></i> Spécialité :** Hivernale.</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-6 shadow-lg border-t-4 border-oujda-ochre">
+                    <img src="8.png" alt="Pâtisseries Marocaines" class="w-full h-48 object-cover mb-4 rounded-lg">
+                    <h3 class="font-serif text-2xl font-bold text-oujda-dark mb-3">Pâtisseries Orientales</h3>
+                    <p class="text-gray-700 mb-4">
+                        Ne partez pas sans goûter aux Ghribas (petits gâteaux secs aux amandes) et aux Fekkas (biscuits aux fruits secs). Accompagnés d'un thé à la menthe, ils sont parfaits pour une pause gourmande.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="flex items-center"><i class="fas fa-cookie-bite text-oujda-gold mr-2"></i> Où le trouver : Pâtisseries, souks, salons de thé.</li>
+                        <li class="flex items-center"><i class="fas fa-leaf text-oujda-gold mr-2"></i> Accompagnement : Thé à la menthe.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <p class="text-gray-700 text-lg mb-6">
+                    Pour une expérience complète, n'hésitez pas à demander conseil aux habitants, ils seront ravis de vous guider vers leurs adresses préférées !
+                </p>
+                <a href="index.html#contact" class="inline-block bg-oujda-ochre text-white px-8 py-4 font-bold hover:bg-oujda-gold transition duration-300">
+                    Planifier votre voyage gastronomique
+                </a>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>

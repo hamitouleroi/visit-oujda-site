@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bab Sidi Abdelwahab - Visitez Oujda</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+        /* Réutilisation de votre configuration Tailwind */
+        :root {
+            --color-oujda-gold: #D4AF37;
+            --color-oujda-ochre: #C07646;
+            --color-oujda-dark: #1a1a1a;
+        }
+        .text-oujda-gold { color: var(--color-oujda-gold); }
+        .bg-oujda-ochre { background-color: var(--color-oujda-ochre); }
+        .text-oujda-ochre { color: var(--color-oujda-ochre); }
+
+        .detail-header {
+            background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url('1.jpg');
+            background-position: center;
+            background-size: cover;
+            min-height: 400px;
+        }
+    </style>
+</head>
+<body class="font-sans text-gray-800 antialiased bg-gray-50">
+
+    <header class="detail-header flex items-end text-white pb-12 px-6">
+        <div class="max-w-4xl mx-auto w-full">
+            <a href="index.html" class="text-sm uppercase tracking-wider hover:text-oujda-gold transition mb-4 block"><i class="fas fa-arrow-left mr-2"></i> Retour à Oujda</a>
+            <h1 class="font-serif text-5xl md:text-6xl font-bold mb-2">Bab Sidi Abdelwahab</h1>
+            <p class="text-xl font-light">L'entrée majestueuse de la vieille ville.</p>
+        </div>
+    </header>
+
+    <main class="py-16">
+        <div class="max-w-4xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-3 gap-12">
+            
+            <div class="lg:col-span-2">
+                <h2 class="font-serif text-3xl font-bold text-oujda-dark mb-6">Un Témoin de l'Histoire Orientale</h2>
+                <p class="text-gray-600 leading-relaxed mb-6 text-lg">
+                    Érigée au **XVIIIe siècle**, Bab Sidi Abdelwahab n'est pas qu'une simple porte ; elle est le cœur battant de la ville. Elle symbolise la richesse architecturale de la période Almohade et la résilience d'Oujda face aux siècles. Autour d'elle s'articule le souk et le marché, offrant une immersion totale dans la vie locale.
+                </p>
+
+                <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+                    <li class="p-4 bg-white shadow-md border-l-4 border-oujda-gold">
+                        <i class="fas fa-calendar text-oujda-ochre mr-2"></i> **Période :** XVIIIe siècle
+                    </li>
+                    <li class="p-4 bg-white shadow-md border-l-4 border-oujda-gold">
+                        <i class="fas fa-map-pin text-oujda-ochre mr-2"></i> **Proximité :** Proche de la Grande Mosquée
+                    </li>
+                </ul>
+
+                <h3 class="font-serif text-2xl font-bold text-oujda-ochre mt-8 mb-4">Conseils de Visite</h3>
+                <p class="text-gray-600 leading-relaxed">
+                    Visitez le matin pour l'effervescence du marché, ou en fin d'après-midi lorsque la lumière douce met en valeur les pierres ocre. N'hésitez pas à vous promener dans les petites ruelles adjacentes pour trouver des artisans et des stands de street food authentiques.
+                </p>
+            </div>
+
+            <aside class="lg:col-span-1 bg-white p-6 shadow-xl border-t-4 border-oujda-gold">
+                <h3 class="font-bold text-xl mb-4 text-oujda-dark">Informations Pratiques</h3>
+                <ul class="space-y-4">
+                    <li class="flex gap-3">
+                        <i class="fas fa-clock text-oujda-gold mt-1"></i>

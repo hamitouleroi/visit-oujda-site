@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parc Lalla Aicha - Visitez Oujda</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+        /* Réutilisation de votre configuration Tailwind */
+        :root {
+            --color-oujda-gold: #D4AF37;
+            --color-oujda-ochre: #C07646;
+            --color-oujda-green: #2E5D4B;
+            --color-oujda-dark: #1a1a1a;
+        }
+        .text-oujda-gold { color: var(--color-oujda-gold); }
+        .bg-oujda-ochre { background-color: var(--color-oujda-ochre); }
+        .text-oujda-ochre { color: var(--color-oujda-ochre); }
+        .text-oujda-green { color: var(--color-oujda-green); }
+        .border-oujda-green { border-left-color: var(--color-oujda-green); }
+
+        .detail-header {
+            background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url('2.png');
+            background-position: center;
+            background-size: cover;
+            min-height: 400px;
+        }
+    </style>
+</head>
+<body class="font-sans text-gray-800 antialiased bg-gray-50">
+
+    <header class="detail-header flex items-end text-white pb-12 px-6">
+        <div class="max-w-4xl mx-auto w-full">
+            <a href="index.html" class="text-sm uppercase tracking-wider hover:text-oujda-gold transition mb-4 block"><i class="fas fa-arrow-left mr-2"></i> Retour à Oujda</a>
+            <h1 class="font-serif text-5xl md:text-6xl font-bold mb-2">Parc Lalla Aicha</h1>
+            <p class="text-xl font-light">Le poumon vert, oasis de calme en pleine ville.</p>
+        </div>
+    </header>
+
+    <main class="py-16">
+        <div class="max-w-4xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-3 gap-12">
+            
+            <div class="lg:col-span-2">
+                <h2 class="font-serif text-3xl font-bold text-oujda-dark mb-6">Un Refuge de Verdure</h2>
+                <p class="text-gray-600 leading-relaxed mb-6 text-lg">
+                    Le **Parc Lalla Aicha** est l'un des plus grands espaces verts de la région. C'est l'endroit idéal pour échapper à l'agitation urbaine. Il offre des pistes de jogging, des aires de pique-nique ombragées, et un lac artificiel paisible. Il est aussi le siège de nombreux événements culturels et sportifs de la ville, notamment le célèbre **Festival international du Raï**.
+                </p>
+
+                <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+                    <li class="p-4 bg-white shadow-md border-l-4 border-oujda-green">
+                        <i class="fas fa-running text-oujda-green mr-2"></i> **Activités :** Jogging, vélo, détente.
+                    </li>
+                    <li class="p-4 bg-white shadow-md border-l-4 border-oujda-green">
+                        <i class="fas fa-calendar-alt text-oujda-green mr-2"></i> **Événements :** Festivals d'été (Raï).
+                    </li>
+                </ul>
+
+                <h3 class="font-serif text-2xl font-bold text-oujda-green mt-8 mb-4">À ne pas manquer</h3>
+                <p class="text-gray-600 leading-relaxed">
+                    Cherchez le grand olivier centenaire au centre du parc, un lieu de rassemblement historique. Les enfants apprécieront la grande aire de jeux sécurisée. Un petit café à l'entrée propose des thés à la menthe rafraîchissants sous les palmiers.
+                </p>
+            </div>
+
+            <aside class="lg:col-span-1 bg-white p-6 shadow-xl border-t-4 border-oujda-green">
+                <h3 class="font-bold text-xl mb-4 text-oujda-dark">Informations Pratiques</h3>
+                <ul class="space-y-4">
+                    <li class="flex gap-3">
+                        <i class="fas fa-sun text-oujda-green mt-1"></i>
+                        <div>
+                            <p class="font-semibold">Meilleure Période</p>
+                            <p class="text-sm text-gray-600">Tôt le matin ou en fin d'après-midi pour éviter les fortes chaleurs.</p>
+                        </div>
+                    </li>
+                    <li class="flex gap-3">
+                        <i class="fas fa-bicycle text-oujda-green mt-1"></i>
+                        <div>
+                            <p class="font-semibold">Location</p>
+                            <p class="text-sm text-gray-600">Possibilité de louer des vélos ou des rosalies (quadricycles) sur place.</p>
+                        </div>
+                    </li>
+                    <li class="flex gap-3">
+                        <i class="fas fa-money-bill-wave text-oujda-green mt-1"></i>
+                        <div>
+                            <p class="font-semibold">Tarif</p>
+                            <p class="text-sm text-gray-600">Entrée libre et gratuite toute l'année.</p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="mt-6 text-center">
+                    <a href="index.html#map" class="bg-oujda-ochre text-white px-6 py-3 block font-bold hover:bg-oujda-gold transition">Trouver sur la carte</a>
+                </div>
+            </aside>
+        </div>
+    </main>
+    
+</body>
+</html>
